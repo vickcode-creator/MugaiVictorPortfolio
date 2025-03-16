@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MugaiVictor Personal Portfolio</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5" >
+        <div class="" style="margin-inline: 10px;"  >
+          <img src="images/mypict1.png" width="70" height="50"   class="img-fluid" alt="" />
+        </div>
+
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #1de448"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+       
+      </div>
+    </nav>
+    <!-- navbar ends here style="background-image: url('bacground2.jpeg');"-->
+
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home",  >
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #2c17c8">
+            Hello! I Am <br /><span class="c-orange">Mugai Victor</span>
+          </h2>
+          <p  style="color: #e3e2e7">
+            I'm a Data Science & ML Engineer with a Computer Science degree, skilled in data analysis, predictive modeling, 
+            and AI solutions. I specialize in deep learning, NLP, and computer vision, turning data into intelligent insights
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a class="nav-link" href="#portfolio">My Projects</a>
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+       
+      </div>
+    </section>
+   
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+           <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images\dd.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Data Science</h4>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images\mliconim.jpg"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Machine Learning</h4> 
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images\crossplatformicon.webp"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4> Dev</h4>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about",style="background-image: url('mobiledeveloper.png');">
+      <div class="row justify-content-evenly">
+        
+
+        <div class="col-10 col-md-5 skill-with-progress">
+          <div class="row justify-content-evenly">
+              <div class="skillbar clearfix" data-percent="95%" data-color="#EBB035">
+                  <div class="skillbar-title"><span>Python</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">95%</div>
+              </div>
+  
+              <div class="skillbar clearfix" data-percent="95%" data-color="#218559">
+                  <div class="skillbar-title"><span>Java&Kotlin</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">95%</div>
+              </div>
+  
+              <div class="skillbar clearfix" data-percent="90%" data-color="#6840D4">
+                  <div class="skillbar-title"><span>javascript</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">80%</div>
+              </div>
+  
+              <div class="skillbar clearfix" data-percent="85%" data-color="#06A2CB">
+                  <div class="skillbar-title"><span>C</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">80%</div>
+              </div>
+
+              <div class="skillbar-title-only">
+                <span>Frameworks,Libs & Technologies</span>
+            </div>
+
+              <div class="skillbar clearfix" data-percent="85%" data-color="#06A2CB">
+                <div class="skillbar-title2"><span>React,Fast_Api,Flask,MySql</span></div>
+                <div class="skillbar-bar2"></div>
+                
+            </div>
+  
+              <div class="skillbar clearfix" data-percent="90%" data-color="#AB4DD2">
+                  <div class="skillbar-title2"><span>Scikit-learn,Tensorflow&keras, PyTorch</span></div>
+                  <div class="skillbar-bar2"></div>
+              
+              </div>
+
+              <div class="skillbar clearfix" data-percent="90%" data-color="#AB4DD2" >
+                <div class="skillbar-title2" style="width: 1000;"><span>Np,Pd,SciPy,mpl,Seaborn,OpenCV,XGBoost</span></div>
+                <div class="skillbar-bar2"></div>
+                
+              </div>
+
+              <div class="skillbar clearfix" data-percent="90%" data-color="#AB4DD2">
+              <div class="skillbar-title2"><span>AI tools, OOP,IOT, APIs, Excel, Git,Render,Docker,AWS</span></div>
+              <div class="skillbar-bar2"></div>
+              
+            </div>
+          </div>
+      </div>
+  
+
+
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p  style="color: #e3e2e7">
+              I excel in leveraging data science and  machine learning to solve real word problems.
+            </p>
+            <p  style="color: #e3e2e7" >
+              I deliver impactful, efficient, and scalable systems.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="MugaiVictor CV.pdf"
+                download="MugaiVictor CV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio",style="background-image: url('bacground2.jpeg');">
+      <div class="heading text-center pt-5">
+        <small>Creative Work & StartUps</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="webapp">Finance</button>
+        <button class="filter-item" data-filter="website">Health</button>
+        <button class="filter-item" data-filter="website">Security</button>
+        <button class="filter-item" data-filter="website">Media</button>
+        <button class="filter-item" data-filter="website">Transport</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="f">
+            <div class="card">
+              <img src="images\bt22.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Brain_Tumor Classification</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Tensorflow&Keras</span>
+                <span class="badge bg-secondary badge-pill ">Fast API</span>
+                <span class="badge bg-secondary badge-pill ">CNN</span>
+                <span class="badge bg-secondary badge-pill ">JupyterNotebook</span>
+                <span class="badge bg-secondary badge-pill ">React</span>
+                <span class="badge bg-secondary badge-pill ">Postman/SwaggerUI</span>
+                <span class="badge bg-secondary badge-pill ">Kaggle_dataset</span>
+                <span class="badge bg-secondary badge-pill mb-2">Health</span>
+                ><br />
+                <a href="https://fastapi-brain-tumor-app.onrender.com" class="link">Link</a>
+                <a href="https://brain-tumor-prediction-app-xiqr.onrender.com" class="link">Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images\nairobi2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Nairobi_Rent Prices prediction sys, based on Neighbourhood</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Sk-Learn</span>
+                <span class="badge bg-secondary badge-pill">JupyterNotebook</span>
+                <span class="badge bg-secondary badge-pill">Fast_Api</span>
+                <span class="badge bg-secondary badge-pill ">Regression</span>
+                <span class="badge bg-secondary badge-pill ">CMD</span>
+                <span class="badge bg-secondary badge-pill mb-2">Finance</span>
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images\intruder2.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Intruder Detection sys, Computer vision project </h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">PyTorch</span>
+                <span class="badge bg-secondary badge-pill">Utralylics(yolov8)</span>
+                <span class="badge bg-secondary badge-pill">Fast_Api</span>
+                <span class="badge bg-secondary badge-pill">Infobip SMS API</span>
+                <span class="badge bg-secondary badge-pill">MySql</span>
+                <span class="badge bg-secondary badge-pill">Kaggle Notebook/GPU</span>
+                <span class="badge bg-secondary badge-pill mb-2"></span>
+
+
+                ><br />
+                <a href="https://www.kaggle.com/code/victormugai/detection-system" class="read-more-btn link">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/carparking.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Empty/Ocuppied parking space Detection</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">PyTorch</span>
+                <span class="badge bg-secondary badge-pill">Utralylics(YOLO)</span>
+                <span class="badge bg-secondary badge-pill">OpenCV</span>
+                <span class="badge bg-secondary badge-pill">Roboflow Dataset</span>
+                <span class="badge bg-secondary badge-pill">Google Colab/Nvidia GPU</span>
+                <span class="badge bg-secondary badge-pill mb-2">Transport</span>
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images\realaigen.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Real or AI generated images Classification model</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Tensorflow.keras</span>
+                <span class="badge bg-secondary badge-pill">CNN</span>
+                <span class="badge bg-secondary badge-pill">Kaggle_dataset</span>
+                <span class="badge bg-secondary badge-pill">JupyterNotebook</span>
+                <span class="badge bg-secondary badge-pill mb-2">Med</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images\Untitled design.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Fake News Detector,NLP</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Tensorflow.keras</span>
+                <span class="badge bg-secondary badge-pill">Kaggle_dataset</span>
+                <span class="badge bg-secondary badge-pill">KaggleNotebook/GPU</span>
+                <span class="badge bg-secondary badge-pill mb-2">Tokenizer</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial",style="background-image: url('bacground2.jpeg');">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images\clients.jpeg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        An exceptional Data Scientist with a sharp analytical mind and a passion for 
+                        AI-driven solutions. Delivers insightful, data-driven strategies with precision and innovation!
+                      </p>
+                      <h4></h4>
+                      <small class="fs-6 text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        An exceptional Data Scientist with a sharp analytical mind and a passion for AI-driven solutions.
+                         Delivers insightful, data-driven strategies with precision and innovation!
+                      </p>
+                      <h4></h4>
+                      <small class="fs-6 text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        An exceptional Data Scientist with a sharp analytical mind and a passion for AI-driven solutions.
+                        Delivers insightful, data-driven strategies with precision and innovation!
+                      </p>
+                      <h4>...</h4>
+                      <small class="fs-6 text-muted">...</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog",style="background-image: url('bacground2.jpeg');">
+      <div class="heading text-center pt-5">
+        <small>Latest News</small>
+        <h3>Blog & Articles</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images\ds.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By MugaiVictor</small
+              ><span class="ms-3">Updated</span>
+              <h4 class="card-title">
+                <a href="">Data Science,ML and Ai Explained</a>
+              </h4>
+              <p class="text-muted">
+                The diffrence and relationship between Data Science,ML and Ai Explained
+              </p>
+              <a href="https://medium.com/@victormacharia002/data-science-vs-machine-learning-vs-ai-clarifying-the-differences-395cea41a6e9" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images\dsandhh.webp"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By MugaiVictor</small
+              ><span class="ms-3">Updated</span>
+              <h4 class="card-title">
+                <a href="">Data Science and Healthcare </a>
+              </h4>
+              <p class="text-muted">
+                How Data Science is Transforming Healthcare in tonday's world
+              </p>
+              <a href="https://medium.com/@victormacharia002/how-data-science-is-transforming-healthcare-01d7603150d7" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="images\comuterv.jpeg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By MugaiVictor</small
+              ><span class="ms-3">Updated</span>
+              <h4 class="card-title">
+                <a href="">Computer Vision</a>
+              </h4>
+              <p class="text-muted">
+               Comuter vision Explained using Yolov8 model, Python and fast api
+              </p>
+              <a href="https://medium.com/@victormacharia002/how-to-build-a-real-time-object-detection-system-using-yolo-and-fastapi-00aa6a64ab95" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        
+         
+        
+        
+        
+              
+        
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>For hiring,source codes and questions<br> Fee</h3>
+
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Nairobi,Kenya</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p id="defaultPhone">+254 717372882</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p id="defaultEmail">victormacharia002@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>MugaiVictor.me</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name" />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="messageInput" placeholder="Enter Your Message" rows="5"></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="sendEmail()">Send Email</button>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="sendWhatsApp()">Send WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a href="https://leetcode.com/u/H8neJfW0mJ/" target="_blank" class="btn rounded-pill dribble">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="24">
+        </a>
+        <a href="https://wa.me/yourphonenumber" target="_blank" class="btn rounded-pill behance">
+          <i class="bi bi-whatsapp"></i>
+        </a>        
+        <a href="https://www.linkedin.com/in/mugai-victor-2269b3338/" target="_blank" class="btn rounded-pill behance">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        
+      </div>
+      
+      
+
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 MugaiVictorPortfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
